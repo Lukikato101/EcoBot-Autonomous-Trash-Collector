@@ -1,0 +1,10 @@
+Designator,Value,Description,Notes
+U1,ESP32-C3-WROOM-02,Wi-Fi and Bluetooth module,Verify antenna keepout and footprint
+U2,TB6612FNG,Dual H-bridge motor driver,Place near motor connectors and supply input
+U3,AP2112K-3.3,3.3V regulator,Confirm regulator input voltage range
+U4,MPU-6050,IMU sensor,Verify I2C pull-up and decoupling placement
+SW1,SW_Push,Reset / user button,Ensure clear silkscreen labeling
+J1,Power Connector,Main supply input,Add polarity marking
+J2,Motor Connector,Motor output connection,Label clearly
+J3,Motor Connector,Motor output connection,Label clearly
+Cx,Decoupling capacitor,Local bypass capacitor,Place close to IC power pins

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+  <rect width="1000" height="600" fill="#f8fafc"/>
+  <rect x="60" y="80" width="880" height="440" rx="20" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="500" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Robot Trash Collector V1.0 - System Block Diagram</text>
+
+  <rect x="140" y="190" width="180" height="100" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="230" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#1e3a8a">Power Input</text>
+  <text x="230" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">Battery / Supply</text>
+
+  <rect x="380" y="190" width="220" height="100" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="490" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#166534">Controller</text>
+  <text x="490" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">ESP32-C3 Module</text>
+
+  <rect x="660" y="190" width="180" height="100" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="750" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#92400e">Motor Driver</text>
+  <text x="750" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">TB6612FNG</text>
+
+  <rect x="260" y="360" width="180" height="100" rx="12" fill="#fce7f3" stroke="#db2777" stroke-width="2"/>
+  <text x="350" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#9d174d">Sensors</text>
+  <text x="350" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">IMU / Feedback</text>
+
+  <rect x="520" y="360" width="220" height="100" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="630" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#5b21b6">Actuators</text>
+  <text x="630" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">Motors / Wheels</text>
+
+  <line x1="320" y1="240" x2="380" y2="240" stroke="#64748b" stroke-width="2"/>
+  <line x1="600" y1="240" x2="660" y2="240" stroke="#64748b" stroke-width="2"/>
+  <line x1="490" y1="290" x2="350" y2="360" stroke="#64748b" stroke-width="2"/>
+  <line x1="490" y1="290" x2="630" y2="360" stroke="#64748b" stroke-width="2"/>
+  <line x1="750" y1="290" x2="630" y2="360" stroke="#64748b" stroke-width="2"/>
+
+  <text x="500" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#475569">This diagram summarizes the main functional blocks used in the PCB design.</text>
+</svg>
